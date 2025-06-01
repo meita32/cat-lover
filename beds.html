@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cat Beds - Cat Lover</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="products.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">Cat Lover</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li class="dropdown">
+          <a href="#" class="active">Products</a>
+          <div class="dropdown-content">
+            <a href="food.html">Food</a>
+            <a href="water-bowls.html">Water Bowls</a>
+            <a href="litter-boxes.html">Litter Boxes</a>
+            <a href="scratching.html">Scratching Posts</a>
+            <a href="beds.html" class="active">Beds</a>
+            <a href="toys.html">Toys</a>
+          </div>
+        </li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="product-header">
+      <h1>Cat Beds</h1>
+      <p>Give your cat the perfect spot for sweet dreams</p>
+    </section>
+
+    <section class="filters">
+      <div class="filter-group">
+        <h3>Style</h3>
+        <button class="filter-btn" data-filter="cave">Cave Bed</button>
+        <button class="filter-btn" data-filter="cushion">Cushion</button>
+        <button class="filter-btn" data-filter="window">Window Perch</button>
+        <button class="filter-btn" data-filter="hammock">Hammock</button>
+      </div>
+
+      <div class="filter-group">
+        <h3>Material</h3>
+        <button class="filter-btn" data-filter="plush">Plush</button>
+        <button class="filter-btn" data-filter="memory-foam">Memory Foam</button>
+        <button class="filter-btn" data-filter="sherpa">Sherpa</button>
+        <button class="filter-btn" data-filter="cotton">Cotton</button>
+      </div>
+
+      <div class="filter-group">
+        <h3>Features</h3>
+        <button class="filter-btn" data-filter="heated">Self-Heating</button>
+        <button class="filter-btn" data-filter="orthopedic">Orthopedic</button>
+        <button class="filter-btn" data-filter="washable">Machine Washable</button>
+      </div>
+    </section>
+
+    <section class="products-grid">
+      <div class="product-card" data-categories="cave plush heated">
+        <img src="Photos/bed-cave-1.jpg" alt="Cozy Cave Bed">
+        <div class="product-info">
+          <h4>Luxury Cave Bed</h4>
+          <p class="product-description">Self-warming plush cave bed for privacy lovers</p>
+          <div class="product-tags">
+            <span class="tag">Cave</span>
+            <span class="tag">Heated</span>
+          </div>
+          <p class="price">€44.99</p>
+          <button class="shop-button">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="product-card" data-categories="cushion memory-foam orthopedic">
+        <img src="Photos/bed-ortho-1.jpg" alt="Orthopedic Bed">
+        <div class="product-info">
+          <h4>Comfort Plus Bed</h4>
+          <p class="product-description">Memory foam bed perfect for senior cats</p>
+          <div class="product-tags">
+            <span class="tag">Memory Foam</span>
+            <span class="tag">Orthopedic</span>
+          </div>
+          <p class="price">€59.99</p>
+          <button class="shop-button">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="product-card" data-categories="window cotton washable">
+        <img src="Photos/bed-window-1.jpg" alt="Window Perch">
+        <div class="product-info">
+          <h4>Sunny Spot Perch</h4>
+          <p class="product-description">Window-mounted bed with strong suction cups</p>
+          <div class="product-tags">
+            <span class="tag">Window</span>
+            <span class="tag">Washable</span>
+          </div>
+          <p class="price">€29.99</p>
+          <button class="shop-button">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="product-card" data-categories="hammock cotton washable">
+        <img src="Photos/bed-hammock-1.jpg" alt="Cat Hammock">
+        <div class="product-info">
+          <h4>Cozy Hammock</h4>
+          <p class="product-description">Elevated hammock for relaxed lounging</p>
+          <div class="product-tags">
+            <span class="tag">Hammock</span>
+            <span class="tag">Cotton</span>
+          </div>
+          <p class="price">€34.99</p>
+          <button class="shop-button">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="product-card" data-categories="cushion sherpa heated">
+        <img src="Photos/bed-sherpa-1.jpg" alt="Sherpa Bed">
+        <div class="product-info">
+          <h4>Thermal Lounger</h4>
+          <p class="product-description">Self-heating sherpa bed with bolstered sides</p>
+          <div class="product-tags">
+            <span class="tag">Sherpa</span>
+            <span class="tag">Heated</span>
+          </div>
+          <p class="price">€39.99</p>
+          <button class="shop-button">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="product-card" data-categories="cave sherpa washable">
+        <img src="Photos/bed-dome-1.jpg" alt="Dome Bed">
+        <div class="product-info">
+          <h4>Cozy Dome Retreat</h4>
+          <p class="product-description">Enclosed dome bed with soft sherpa lining</p>
+          <div class="product-tags">
+            <span class="tag">Cave</span>
+            <span class="tag">Washable</span>
+          </div>
+          <p class="price">€49.99</p>
+          <button class="shop-button">Add to Cart</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <div class="disclaimer">
+        <p>The content of Cat Lover is for educational purposes only. For medical advice about your cat, please see your veterinarian.</p>
+        <p>&copy; 2023 Cat Lover. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="products.js"></script>
+</body>
+</html> 

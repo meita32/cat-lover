@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cat Food - Cat Lover</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="products.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">Cat Lover</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li class="dropdown">
+          <a href="#" class="active">Products</a>
+          <div class="dropdown-content">
+            <a href="food.html" class="active">Food</a>
+            <a href="water-bowls.html">Water Bowls</a>
+            <a href="litter-boxes.html">Litter Boxes</a>
+            <a href="scratching.html">Scratching Posts</a>
+            <a href="beds.html">Beds</a>
+            <a href="toys.html">Toys</a>
+          </div>
+        </li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="product-header">
+      <h1>Cat Food</h1>
+      <p>Find the perfect food for your feline friend</p>
+    </section>
+
+    <section class="filters">
+      <div class="filter-group">
+        <h3>Age</h3>
+        <button class="filter-btn" data-filter="kitten">Kitten (0-12 months)</button>
+        <button class="filter-btn" data-filter="adult">Adult (1-7 years)</button>
+        <button class="filter-btn" data-filter="senior">Senior (7+ years)</button>
+      </div>
+
+      <div class="filter-group">
+        <h3>Lifestyle</h3>
+        <button class="filter-btn" data-filter="indoor">Indoor</button>
+        <button class="filter-btn" data-filter="outdoor">Outdoor</button>
+        <button class="filter-btn" data-filter="active">Active</button>
+      </div>
+
+      <div class="filter-group">
+        <h3>Special Needs</h3>
+        <button class="filter-btn" data-filter="sensitive">Sensitive Digestion</button>
+        <button class="filter-btn" data-filter="weight">Weight Control</button>
+        <button class="filter-btn" data-filter="hairball">Hairball Control</button>
+      </div>
+    </section>
+
+    <section class="products-grid">
+      <div class="product-card" data-categories="kitten indoor">
+        <img src="Photos/kitten-food-1.jpg" alt="Premium Kitten Food">
+        <div class="product-info">
+          <h4>Premium Kitten Formula</h4>
+          <p class="product-description">Perfect for indoor kittens, rich in proteins and essential nutrients</p>
+          <div class="product-tags">
+            <span class="tag">Kitten</span>
+            <span class="tag">Indoor</span>
+          </div>
+          <p class="price">€24.99</p>
+          <button class="shop-button">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="product-card" data-categories="adult outdoor active">
+        <img src="Photos/adult-food-1.jpg" alt="Active Cat Food">
+        <div class="product-info">
+          <h4>Active Cat Formula</h4>
+          <p class="product-description">High-energy formula for active outdoor cats</p>
+          <div class="product-tags">
+            <span class="tag">Adult</span>
+            <span class="tag">Outdoor</span>
+          </div>
+          <p class="price">€29.99</p>
+          <button class="shop-button">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="product-card" data-categories="senior indoor sensitive">
+        <img src="Photos/senior-food-1.jpg" alt="Senior Cat Food">
+        <div class="product-info">
+          <h4>Senior Care Formula</h4>
+          <p class="product-description">Easy-to-digest formula for senior indoor cats</p>
+          <div class="product-tags">
+            <span class="tag">Senior</span>
+            <span class="tag">Indoor</span>
+          </div>
+          <p class="price">€27.99</p>
+          <button class="shop-button">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="product-card" data-categories="adult indoor hairball">
+        <img src="Photos/hairball-food-1.jpg" alt="Hairball Control Food">
+        <div class="product-info">
+          <h4>Hairball Control</h4>
+          <p class="product-description">Special formula to reduce hairball formation</p>
+          <div class="product-tags">
+            <span class="tag">Adult</span>
+            <span class="tag">Hairball</span>
+          </div>
+          <p class="price">€26.99</p>
+          <button class="shop-button">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="product-card" data-categories="adult weight">
+        <img src="Photos/weight-control-1.jpg" alt="Weight Control Food">
+        <div class="product-info">
+          <h4>Weight Management</h4>
+          <p class="product-description">Low-calorie formula for weight control</p>
+          <div class="product-tags">
+            <span class="tag">Adult</span>
+            <span class="tag">Weight Control</span>
+          </div>
+          <p class="price">€28.99</p>
+          <button class="shop-button">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="product-card" data-categories="adult sensitive">
+        <img src="Photos/sensitive-food-1.jpg" alt="Sensitive Digestion Food">
+        <div class="product-info">
+          <h4>Sensitive Digestion</h4>
+          <p class="product-description">Gentle formula for cats with sensitive stomachs</p>
+          <div class="product-tags">
+            <span class="tag">Adult</span>
+            <span class="tag">Sensitive</span>
+          </div>
+          <p class="price">€31.99</p>
+          <button class="shop-button">Add to Cart</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <div class="disclaimer">
+        <p>The content of Cat Lover is for educational purposes only. For medical advice about your cat, please see your veterinarian.</p>
+        <p>&copy; 2023 Cat Lover. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="products.js"></script>
+</body>
+</html> 

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Litter Boxes - Cat Lover</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="products.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">Cat Lover</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li class="dropdown">
+          <a href="#" class="active">Products</a>
+          <div class="dropdown-content">
+            <a href="food.html">Food</a>
+            <a href="water-bowls.html">Water Bowls</a>
+            <a href="litter-boxes.html" class="active">Litter Boxes</a>
+            <a href="scratching.html">Scratching Posts</a>
+            <a href="beds.html">Beds</a>
+            <a href="toys.html">Toys</a>
+          </div>
+        </li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="product-header">
+      <h1>Litter Boxes</h1>
+      <p>Find the perfect litter box for your cat's needs</p>
+    </section>
+
+    <section class="filters">
+      <div class="filter-group">
+        <h3>Type</h3>
+        <button class="filter-btn" data-filter="covered">Covered</button>
+        <button class="filter-btn" data-filter="uncovered">Uncovered</button>
+        <button class="filter-btn" data-filter="self-cleaning">Self-Cleaning</button>
+      </div>
+
+      <div class="filter-group">
+        <h3>Size</h3>
+        <button class="filter-btn" data-filter="small">Small</button>
+        <button class="filter-btn" data-filter="medium">Medium</button>
+        <button class="filter-btn" data-filter="large">Large</button>
+        <button class="filter-btn" data-filter="extra-large">Extra Large</button>
+      </div>
+
+      <div class="filter-group">
+        <h3>Features</h3>
+        <button class="filter-btn" data-filter="charcoal">Charcoal Filter</button>
+        <button class="filter-btn" data-filter="entry">Easy Entry</button>
+        <button class="filter-btn" data-filter="multicat">Multi-Cat</button>
+      </div>
+    </section>
+
+    <section class="products-grid">
+      <div class="product-card" data-categories="covered charcoal large">
+        <img src="Photos/litter-covered-1.jpg" alt="Deluxe Covered Litter Box">
+        <div class="product-info">
+          <h4>Deluxe Covered Box</h4>
+          <p class="product-description">Large covered litter box with charcoal filter for odor control</p>
+          <div class="product-tags">
+            <span class="tag">Covered</span>
+            <span class="tag">Large</span>
+          </div>
+          <p class="price">€49.99</p>
+          <button class="shop-button">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="product-card" data-categories="self-cleaning multicat">
+        <img src="Photos/litter-auto-1.jpg" alt="Automatic Litter Box">
+        <div class="product-info">
+          <h4>Smart Clean System</h4>
+          <p class="product-description">Self-cleaning litter box with waste separation system</p>
+          <div class="product-tags">
+            <span class="tag">Self-Cleaning</span>
+            <span class="tag">Multi-Cat</span>
+          </div>
+          <p class="price">€199.99</p>
+          <button class="shop-button">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="product-card" data-categories="uncovered entry small">
+        <img src="Photos/litter-basic-1.jpg" alt="Basic Litter Pan">
+        <div class="product-info">
+          <h4>Easy Access Pan</h4>
+          <p class="product-description">Perfect starter litter box with low entry point</p>
+          <div class="product-tags">
+            <span class="tag">Uncovered</span>
+            <span class="tag">Easy Entry</span>
+          </div>
+          <p class="price">€19.99</p>
+          <button class="shop-button">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="product-card" data-categories="covered entry extra-large multicat">
+        <img src="Photos/litter-xl-1.jpg" alt="Extra Large Covered Box">
+        <div class="product-info">
+          <h4>XL Comfort Box</h4>
+          <p class="product-description">Spacious covered box perfect for multiple cats</p>
+          <div class="product-tags">
+            <span class="tag">Extra Large</span>
+            <span class="tag">Multi-Cat</span>
+          </div>
+          <p class="price">€69.99</p>
+          <button class="shop-button">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="product-card" data-categories="covered charcoal medium">
+        <img src="Photos/litter-modern-1.jpg" alt="Modern Litter Box">
+        <div class="product-info">
+          <h4>Modern Corner Box</h4>
+          <p class="product-description">Space-saving corner design with odor control</p>
+          <div class="product-tags">
+            <span class="tag">Covered</span>
+            <span class="tag">Medium</span>
+          </div>
+          <p class="price">€44.99</p>
+          <button class="shop-button">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="product-card" data-categories="self-cleaning charcoal large">
+        <img src="Photos/litter-smart-1.jpg" alt="Smart Litter Box">
+        <div class="product-info">
+          <h4>Smart Sift Box</h4>
+          <p class="product-description">Self-sifting system with activated charcoal filter</p>
+          <div class="product-tags">
+            <span class="tag">Self-Cleaning</span>
+            <span class="tag">Large</span>
+          </div>
+          <p class="price">€89.99</p>
+          <button class="shop-button">Add to Cart</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <div class="disclaimer">
+        <p>The content of Cat Lover is for educational purposes only. For medical advice about your cat, please see your veterinarian.</p>
+        <p>&copy; 2023 Cat Lover. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="products.js"></script>
+</body>
+</html> 

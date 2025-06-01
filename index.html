@@ -5,13 +5,77 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Cat Lover</title>
   <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <h1>Available soon!</h1>
-  <h2>This website will help to know more about your cat</h2>
-  <h3>Come back visit in a few days</h3>
-  <button onclick="direBonjour()">Click here</button>
-  <script src="script.js"></script>
-  
+  <header>
+    <nav class="navbar">
+      <div class="logo">Cat Lover</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero">
+      <h1>Cat Lover</h1>
+      <h2>The ultimate shop for happy cats</h2>
+      
+      <div class="image-container">
+        <img src="Photos/cat9.jpg" alt="Happy cat 1">
+        <img src="Photos/cat8.jpg" alt="Happy cat 2">
+        <img src="Photos/cat7.jpg" alt="Happy cat 3">
+      </div>
+    </section>
+
+    <section id="products">
+      <h3>Our Products</h3>
+      <div class="product-grid">
+        <div class="product-card">
+          <div class="product-icon">🍽️</div>
+          <h4>Food</h4>
+          <a href="food.html" class="shop-button">Shop Now</a>
+        </div>
+        <div class="product-card">
+          <div class="product-icon">💧</div>
+          <h4>Water Bowls</h4>
+          <a href="water-bowls.html" class="shop-button">Shop Now</a>
+        </div>
+        <div class="product-card">
+          <div class="product-icon">🏠</div>
+          <h4>Litter Box</h4>
+          <a href="litter-boxes.html" class="shop-button">Shop Now</a>
+        </div>
+        <div class="product-card">
+          <div class="product-icon">🐱</div>
+          <h4>Scratching Pad</h4>
+          <a href="scratching.html" class="shop-button">Shop Now</a>
+        </div>
+        <div class="product-card">
+          <div class="product-icon">🛏️</div>
+          <h4>Beds</h4>
+          <a href="beds.html" class="shop-button">Shop Now</a>
+        </div>
+        <div class="product-card">
+          <div class="product-icon">🧸</div>
+          <h4>Toys</h4>
+          <a href="toys.html" class="shop-button">Shop Now</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <div class="disclaimer">
+        <p>The content of Cat Lover is for educational purposes only. For medical advice about your cat, please see your veterinarian.</p>
+        <p>&copy; 2023 Cat Lover. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>

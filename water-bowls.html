@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Water Bowls - Cat Lover</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="products.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">Cat Lover</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li class="dropdown">
+          <a href="#" class="active">Products</a>
+          <div class="dropdown-content">
+            <a href="food.html">Food</a>
+            <a href="water-bowls.html" class="active">Water Bowls</a>
+            <a href="litter-boxes.html">Litter Boxes</a>
+            <a href="scratching.html">Scratching Posts</a>
+            <a href="beds.html">Beds</a>
+            <a href="toys.html">Toys</a>
+          </div>
+        </li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="product-header">
+      <h1>Water Bowls</h1>
+      <p>Keep your cat hydrated with our premium water bowls</p>
+    </section>
+
+    <section class="filters">
+      <div class="filter-group">
+        <h3>Type</h3>
+        <button class="filter-btn" data-filter="fountain">Water Fountains</button>
+        <button class="filter-btn" data-filter="standard">Standard Bowls</button>
+        <button class="filter-btn" data-filter="automatic">Automatic Refill</button>
+      </div>
+
+      <div class="filter-group">
+        <h3>Material</h3>
+        <button class="filter-btn" data-filter="ceramic">Ceramic</button>
+        <button class="filter-btn" data-filter="stainless">Stainless Steel</button>
+        <button class="filter-btn" data-filter="glass">Glass</button>
+      </div>
+
+      <div class="filter-group">
+        <h3>Features</h3>
+        <button class="filter-btn" data-filter="filtered">Water Filtration</button>
+        <button class="filter-btn" data-filter="elevated">Elevated Design</button>
+        <button class="filter-btn" data-filter="multicat">Multi-Cat</button>
+      </div>
+    </section>
+
+    <section class="products-grid">
+      <div class="product-card" data-categories="fountain filtered">
+        <img src="Photos/fountain-1.jpg" alt="Premium Cat Fountain">
+        <div class="product-info">
+          <h4>Premium Cat Fountain</h4>
+          <p class="product-description">Quiet water fountain with triple filtration system</p>
+          <div class="product-tags">
+            <span class="tag">Fountain</span>
+            <span class="tag">Filtered</span>
+          </div>
+          <p class="price">€49.99</p>
+          <button class="shop-button">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="product-card" data-categories="standard ceramic elevated">
+        <img src="Photos/bowl-ceramic-1.jpg" alt="Ceramic Elevated Bowl">
+        <div class="product-info">
+          <h4>Elevated Ceramic Bowl</h4>
+          <p class="product-description">Ergonomic design for comfortable drinking</p>
+          <div class="product-tags">
+            <span class="tag">Ceramic</span>
+            <span class="tag">Elevated</span>
+          </div>
+          <p class="price">€24.99</p>
+          <button class="shop-button">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="product-card" data-categories="automatic filtered multicat">
+        <img src="Photos/auto-fountain-1.jpg" alt="Automatic Water Fountain">
+        <div class="product-info">
+          <h4>Smart Water Fountain</h4>
+          <p class="product-description">Auto-refilling fountain with water level sensor</p>
+          <div class="product-tags">
+            <span class="tag">Automatic</span>
+            <span class="tag">Filtered</span>
+          </div>
+          <p class="price">€79.99</p>
+          <button class="shop-button">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="product-card" data-categories="standard stainless multicat">
+        <img src="Photos/bowl-steel-1.jpg" alt="Stainless Steel Bowls">
+        <div class="product-info">
+          <h4>Double Steel Bowls</h4>
+          <p class="product-description">Durable stainless steel bowls with non-slip base</p>
+          <div class="product-tags">
+            <span class="tag">Stainless</span>
+            <span class="tag">Multi-Cat</span>
+          </div>
+          <p class="price">€19.99</p>
+          <button class="shop-button">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="product-card" data-categories="fountain glass filtered">
+        <img src="Photos/fountain-glass-1.jpg" alt="Glass Fountain">
+        <div class="product-info">
+          <h4>Glass Fountain</h4>
+          <p class="product-description">Elegant glass fountain with LED lighting</p>
+          <div class="product-tags">
+            <span class="tag">Glass</span>
+            <span class="tag">Fountain</span>
+          </div>
+          <p class="price">€59.99</p>
+          <button class="shop-button">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="product-card" data-categories="automatic stainless multicat">
+        <img src="Photos/auto-steel-1.jpg" alt="Auto-Refill Bowl">
+        <div class="product-info">
+          <h4>Auto-Refill System</h4>
+          <p class="product-description">Large capacity automatic water bowl</p>
+          <div class="product-tags">
+            <span class="tag">Automatic</span>
+            <span class="tag">Stainless</span>
+          </div>
+          <p class="price">€39.99</p>
+          <button class="shop-button">Add to Cart</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <div class="disclaimer">
+        <p>The content of Cat Lover is for educational purposes only. For medical advice about your cat, please see your veterinarian.</p>
+        <p>&copy; 2023 Cat Lover. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="products.js"></script>
+</body>
+</html> 
